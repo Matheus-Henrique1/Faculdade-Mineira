@@ -1,0 +1,10 @@
+ul {
+    list-style-type: circle;
+  }
+  body{
+    background:rgba(219, 194, 173, 0.603) url(fjfundo.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 250px 20px;
+    
+  }
