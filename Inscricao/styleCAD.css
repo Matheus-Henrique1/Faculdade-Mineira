@@ -1,0 +1,56 @@
+body{
+    background:#fabe8d9a url(../fjfundo.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+}
+
+#csuser, #csmail, #cspassw,#cscadast {
+    padding: 20px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid  rgb(96, 207, 251);
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  #usuario{
+    position: relative;
+    top: 100px;
+    left: 900px;
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: rgb(91, 176, 251);
+  }
+
+  #csuser:focus, #csmail:focus, #cspassw:focus{
+    background: rgb(159, 255, 223);
+  }
+  button {
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  #cscadast{
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: rgb(112, 214, 255);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px rgb(21, 154, 172);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 250px;
+    height: 70px;
+  }
+  
+  #cscadast:active {
+    box-shadow: 0 0 0 0 rgb(21, 154, 172),
+          inset 4px 4px 4px rgb(21, 154, 172);
+    transform: translate(6px, 6px);
+  }
+  
+  
