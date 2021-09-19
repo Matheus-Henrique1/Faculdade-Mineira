@@ -1,0 +1,53 @@
+body{
+    background-image: url(20\ \(Copy\).jpg);
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+}
+
+#csNome, #csmail,#cscadast {
+    padding: 20px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid  rgb(96, 207, 251);
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  #usuario{
+    position: relative;
+    top: 50px;
+    left: 620px;
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  #csNome:focus, #csmail:focus{
+    background: rgb(159, 255, 223);
+  }
+  button {
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  #cscadast{
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: rgb(121, 4, 164);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px rgb(83, 12, 108);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 150px;
+    height: 60px;
+  }
+  #cscadast:active {
+    box-shadow: 0 0 0 0 rgb(121, 4, 164),
+          inset 4px 4px 4px rgb(91, 10, 120);
+    transform: translate(6px, 6px);
+  }
+
+  
